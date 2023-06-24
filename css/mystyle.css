@@ -71,7 +71,7 @@
 
 
 #img_logo{
-    padding-bottom: 50px;
+    padding: 20px;
 }
 
 #hanle_id{
@@ -100,9 +100,7 @@
 
 .div1_about {
     float: left;
-    padding-right: 1em;
-    margin-top: 6.2em;  /* removes top space*/
-    margin-left: -9px;  /* removes left space*/
+
 
 }
 
@@ -143,7 +141,6 @@
 
 .project_info{
     color:greenyellow;
-    font-size: 1.5em;
 }
 
 .column2{
@@ -248,5 +245,72 @@
     position: fixed;
     width: 100%;
     color: #fff;
+}
+.div2_study {
+    margin-right: 5px;
+    padding-top: 6.2em;
+    color: #1cf300e9;
+}
+
+.topnav {
+    /* overflow:s visible; */
+    display: none;
+    position: relative;
+    background-color: #4df300e9;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.icon_back{
+    color:#12b396 !important;
+}
+
+
+@media screen and (max-width:890px){
+    .topnav {
+        display:block;
+    }
+
+    .nav_div{
+        display: none;
+    }
+    
+    #footer{
+        display: none;
+    }
+
+    #profile_img{
+        width: 100%;
+        height: auto;
+    }
+    .nav_about{
+        display: none;
+    }
+
+    .nav_game{
+        display: none;
+    }
+    .nav_game{
+        display: none;
+    }
+    
 }
 
